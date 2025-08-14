@@ -5,14 +5,14 @@ public class Main {
     public static void main(String[] args) {
         // Тестирование задачи 1
 
-            System.out.println("Задача №1");
+        System.out.println("Задача №1");
 
         checkLeapYear(2020);
         checkLeapYear(2021);
 
         // Тестирование задачи 2
 
-            System.out.println("Задача №2");
+        System.out.println("Задача №2");
 
         suggestAppVersion(0, 2014); // iOS, старый телефон
         suggestAppVersion(1, 2016); // Android, новый телефон
