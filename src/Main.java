@@ -38,9 +38,9 @@ public class Main {
 
     // Задача 2: Рекомендация версии приложения
     public static void suggestAppVersion(int osType, int clientDeviceYear) {
-        int currentYear = LocalDate.now().getYear();
+
         String osName = (osType == 0) ? "iOS" : "Android";
-        String versionType = (clientDeviceYear < currentYear) ? "облегченную" : "обычную";
+        String versionType = (clientDeviceYear < 2015) ? "облегченную" : "обычную";
 
         System.out.println("Установите " + versionType + " версию приложения для " + osName + " по ссылке");
     }
