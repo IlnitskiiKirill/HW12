@@ -12,14 +12,16 @@ public class Main {
 
         // Тестирование задачи 2
         {
-            System.out.println("Задача №2");}
+            System.out.println("Задача №2");
+        }
         suggestAppVersion(0, 2014); // iOS, старый телефон
         suggestAppVersion(1, 2016); // Android, новый телефон
         suggestAppVersion(0, 2023); // iOS, текущий год
 
         // Тестирование задачи 3
         {
-            System.out.println("Задача №3");}
+            System.out.println("Задача №3");
+        }
         System.out.println("Потребуется дней: " + calculateDeliveryDays(95));
         System.out.println("Потребуется дней: " + calculateDeliveryDays(15));
         System.out.println("Потребуется дней: " + calculateDeliveryDays(65));
@@ -27,7 +29,7 @@ public class Main {
     }
 
     // Задача 1: Проверка високосного года
-        public static void checkLeapYear(int year) {
+    public static void checkLeapYear(int year) {
         boolean isLeap = (year % 400 == 0) || (year % 100 != 0 && year % 4 == 0);
         if (isLeap) {
             System.out.println(year + " год — високосный год");
